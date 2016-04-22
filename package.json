@@ -1,0 +1,30 @@
+{
+  "name": "weather-bot",
+  "version": "0.0.1",
+  "description": "A simple weather bot with BotFramework and LUIS.ai",
+  "main": "app.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akalipetis/weather-bot.git"
+  },
+  "keywords": [
+    "bot",
+    "botframework",
+    "luis",
+    "weather"
+  ],
+  "author": "Antonis Kalipetis <akalipetis@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akalipetis/weather-bot/issues"
+  },
+  "homepage": "https://github.com/akalipetis/weather-bot#readme",
+  "dependencies": {
+    "botbuilder": "^1.0.0",
+    "dotenv": "^2.0.0",
+    "jade": "^1.11.0",
+    "request": "^2.72.0",
+    "restify": "^4.1.0"
+  }
+}
